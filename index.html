@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="red">
+    BA<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="SketchGo">
+    <link rel="apple-touch-icon" href="images/icons/icon-144x144.png">
+
+</head>
+<body>
+    <h1>Mis Actividades</h1>
+    <ul>
+        <li>
+            <a href="https://maps.google.com/?q=BuenosAires"><i class="material-icons">mapa</i><p>mapa de la ciudad</p></a>
+            
+
+        </li>
+        <li>
+            <a href="whatsapp://send?text=Voy a comer"><i class="material-icons">phone</i>
+                <p>whatsapp</p></a>
+            
+        </li>
+        <li>
+            <a href="tg:msg?text=perdon no voy a ir"><i class="material-icons">phone</i>
+                <p>telegram</p></a>
+            
+        </li>
+        <li>
+            <a href="fb-messenger://share?link=http://"><i class="material-icons">facebook</i>
+                <p>facebook messenger</p></a>
+            
+        </li>
+        <li>
+            <a href="https://maps.google.com/?q=BuenosAires"><i class="material-icons">directions</i>
+                <p>mapa de la ciudad</p></a>
+            
+        </li>
+        <li>
+            <a href="https://maps.google.com/?q=BuenosAires"><i class="material-icons">directions_walk</i>
+                <p>mapa de la ciudad</p></a>
+            
+        </li>
+        <li>
+            <a href="https://maps.google.com/?q=BuenosAires"><i class="material-icons">directions_transit</i>
+                <p>mapa de la ciudad</p></a>
+            
+        </li>
+        <li>
+            <a href="sms:5491155555555?body=perdon llego tarde"><i class="material-icons">chat</i>
+                <p>chat</p></a>
+            
+        </li>
+    </ul>
+
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('./serviceWorker.js')
+            console.log('actuvar service worker')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 10px;
+    padding: 0;
+    float: left;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+a {
+    width: 70px;
+    height: 100px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.material-icons {
+    font-size: 50px;
+}
+
+li p {
+    font-size: small;
+}
+
+i{
+    color: indianred;   
+}
